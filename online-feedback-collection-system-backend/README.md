@@ -27,8 +27,9 @@ When an admin marks feedback as reviewed, an email notification is sent to the r
 1. Clone the backend repository
 2. Import the project into Eclipse(Spring Tool Suite)
 3. Configure MySQL database in application.properties
-4. Run the project as Spring Boot Application
-5. Embedded Tomcat server will start automatically
+4. Configure mail: username and password in application.properties
+5. Run the project as Spring Boot Application
+6. Embedded Tomcat server will start automatically
 
 ## API Testing
 - APIs can be tested using:
