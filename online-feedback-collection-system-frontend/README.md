@@ -1,16 +1,32 @@
-# React + Vite
+# Online Feedback Collection System – Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
+The Online Feedback Collection System frontend is built using React.  
+It provides a user-friendly interface for users to register, log in, submit feedback for products, and for admins to manage products and review feedback.
 
-Currently, two official plugins are available:
+The frontend communicates with the backend using REST APIs to perform all operations.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- User registration and login
+- Admin login
+- View list of products
+- Submit feedback for products
+- Admin can:
+  - Add new products
+  - Edit product details
+  - Delete products
+  - View all feedback
+  - Filter feedback
+  - Mark feedback as reviewed
 
-## React Compiler
+## Tech Stack Used
+- Frontend Library: React
+- API Communication: Axios
+- Styling: CSS / React Bootstrap
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Steps to Run Frontend Code
+1. Navigate to the frontend folder
+2. Install the required dependencies using "npm install"
+3. Run the React application using "npm run dev" for vite application.
+4. Open the application in the browser at "http://localhost:5173" (port number may vary)
+5. Ensure the backend Spring Boot application is running for API integration
